@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+
+int NUMBER;
+double worked_hours , amount_per_hour ;
+
+scanf(" %d %lf %lf" , &NUMBER , &worked_hours, &amount_per_hour);
+printf("NUMBER = %d\n" ,NUMBER);
+printf("SALARY = U$ %.2lf\n" , (worked_hours*amount_per_hour));
+
+    return 0;
+}
